@@ -14,6 +14,21 @@ class AppRoutes {
         path: SplashscreenPage.route,
         builder: (context, state) => const SplashscreenPage(),
       ),
+      GoRoute(
+        name: IntroPage.route,
+        path: IntroPage.route,
+        builder: (context, state) => const IntroPage(),
+      ),
+      GoRoute(
+        name: LoginPage.route,
+        path: LoginPage.route,
+        builder: (context, state) => const LoginPage(),
+      ),
+      GoRoute(
+        name: HomePage.route,
+        path: HomePage.route,
+        builder: (context, state) => const HomePage(),
+      ),
     ],
   );
 
