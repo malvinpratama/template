@@ -1,2 +1,2 @@
-export 'database_service.dart';
-export 'logger_service.dart';
+export './database_service.dart';
+export './logger_service.dart';
