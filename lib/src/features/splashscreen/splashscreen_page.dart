@@ -22,7 +22,7 @@ class SplashscreenPage extends StatelessWidget {
         child: BlocListener<SplashscreenBloc, SplashscreenState>(
           listener: (context, state) {
             if (state.viewStatus == ViewStatusModel.success) {
-              context.pushNamed(state.nextRoute!);
+              context.pushReplacementNamed(state.nextRoute!);
             }
           },
           child: Scaffold(

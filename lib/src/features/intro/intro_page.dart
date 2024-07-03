@@ -18,7 +18,7 @@ class IntroPage extends StatelessWidget {
       child: BlocListener<IntroBloc, IntroState>(
         listener: (context, state) {
           if (state.viewStatus == ViewStatusModel.success) {
-            context.goNamed(LoginPage.route);
+            context.pushReplacementNamed(LoginPage.route);
           }
         },
         child: Scaffold(

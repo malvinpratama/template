@@ -1,5 +1,7 @@
 {
     "logIn": "Log In",
     "email": "Email",
-    "password": "Password"
+    "emailInvalid": "Please ensure the Email entered is valid",
+    "password": "Password",
+    "emailOrPasswordIsInvalid": "Email address or password is incorrect"
 }

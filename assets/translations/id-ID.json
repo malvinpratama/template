@@ -1,5 +1,7 @@
 {
     "logIn": "Masuk",
     "email": "Email",
-    "password": "Kata Sandi"
+    "emailInvalid": "Harap pastikan Email yang dimasukkan benar",
+    "password": "Kata Sandi",
+    "emailOrPasswordIsInvalid": "Email atau password salah"
 }
